@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default {
-  base: '/',
+  base: '/docs',
   title: "Renzora Engine Docs",
   description: "Documentation for the 2D Game Engine",
   appearance: 'dark',
