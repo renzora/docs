@@ -109,10 +109,10 @@ You don't need to write any javascript for your plugins to work, you can create 
 </div>
 ```
 
-By default, if you set `drag: true` when loading the plugin, the plugin will have drag handles as long as you specify `window` as the parent class like this:
+By default, if you set the option `drag: true` when loading the plugin, the plugin will have drag handles as long as you specify `window` as the parent class like this:
 ```<div class="window"></div>```
 
-If you have a draggable plugin and you don't want to drag the content are you can add the class `window_body` to the area you wish to not drag.
+If you have a draggable plugin and you don't want to drag the content, you can add the class `window_body` to the area you wish to not drag.
 
 ## API Reference
 
