@@ -81,7 +81,7 @@ assets/
     ├── objectData.json
     └── spriteData.json
 ```
-## Example: Complete Asset Loading
+## Example
 ```js
 // Asset loading configuration
 const gameAssets = [

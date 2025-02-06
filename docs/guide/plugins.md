@@ -1,6 +1,12 @@
 # Plugins
 Plugins are the backbone of Renzora Engine and allow you to create anything you like from user interfaces, menus, scripts and more. To create a plugin you can follow the steps below:
 
+## Install plugins
+You can find community plugins on our official repo [here](https://github.com/renzora/plugins) or you can self-host your own plugins by placing them within the `plugins` directory.
+
+## plugin structure
+Every plugin must have an `index` endpoint. for example if you have a plugin called `template_plugin` You would place it in `plugins/template_plugin/index.{ext}` replace `{ext}` with your file extension, either `html`, `njk` or `js`
+
 ## Template Code
 ``` js
 <div class="window window_bg text-white">

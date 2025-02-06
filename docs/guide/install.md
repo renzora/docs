@@ -66,7 +66,7 @@ The engine is built around several core modules:
 
 Each module is designed to work independently while maintaining seamless integration with other components.
 ## Plugin System
-The engine features a powerful plugin system that allows you to extend the engine with ui overlays, effects, background workers and more. There is have a community plugins repo which can be found [here](https://github.com/renzora/plugins)
+The engine features a powerful plugin system that allows you to extend the engine with ui overlays, effects, background workers and more. There is a community plugins repo which can be found [here](https://github.com/renzora/plugins)
 ```js
 plugin.load('collision', {
     after: () => {
