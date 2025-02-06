@@ -1,8 +1,8 @@
 # Audio Plugin
 Built on the native Web Audio API that lets you manage audio channels, route sound, and play both recorded audio and synthesized notes.
 
-## Quick Start
-
+## Loading Plugin
+To load the audio plugin from the `plugins/core` directory, use the following code:
 ``` js
 plugin.load("audio", { path: "core" });
 ```

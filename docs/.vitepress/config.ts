@@ -36,7 +36,12 @@ export default {
           text: 'Core Plugins',
           collapsed: false,
           items: [
-            { text: 'Audio', link: '/guide/audio' }
+            { text: 'Audio', link: '/guide/audio' },
+            { text: 'Collision', link: '/guide/collision' },
+            { text: 'Lighting', link: '/guide/lighting' },
+            { text: 'Notif', link: '/guide/notif' },
+            { text: 'Time', link: '/guide/time' },
+            { text: 'UI', link: '/guide/ui' }
           ]
         }
       ]
