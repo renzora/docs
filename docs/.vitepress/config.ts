@@ -28,7 +28,8 @@ export default {
           collapsed: false,
           items: [
             { text: 'Assets', link: '/guide/assets' },
-            { text: 'Plugins', link: '/guide/plugins' }
+            { text: 'Plugins', link: '/guide/plugins' },
+            { text: 'Hooks', link: '/guide/hooks' }
           ]
         },
         {
