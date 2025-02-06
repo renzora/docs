@@ -1,0 +1,143 @@
+html:has(.VPHome) {
+  overflow: hidden;
+ }
+ 
+ .VPHome {
+  height: 100vh;
+  overflow: hidden;
+ }
+ 
+ .VPHome body {
+  overflow: hidden;
+ }
+ 
+ .VPHomeHero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  margin: 0 !important;
+ }
+ 
+ .VPHero {
+  background: url('/background.png') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+ }
+ 
+ .VPHero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+ }
+ 
+ .VPContent {
+  padding-top: 0 !important;
+ }
+ 
+ .VPHero .container {
+  position: relative;
+  z-index: 1;
+  max-width: var(--vp-layout-max-width);
+  margin: 0 auto;
+  padding: 0 var(--vp-layout-page-padding);
+ }
+ 
+ .VPHero .container .main {
+  margin: 0;
+  max-width: 592px;
+  text-align: left;
+ }
+ 
+ .VPHero .text {
+  margin: 0;
+  text-align: left;
+ }
+ 
+ .VPHero .actions {
+  justify-content: flex-start;
+ }
+ 
+ .VPHero .main {
+  padding-top: 0;
+ }
+ 
+ .VPHero .name,
+ .VPHero .text,
+ .VPHero .tagline {
+  color: white;
+ }
+ 
+ .VPHome {
+  padding-bottom: 0 !important;
+ }
+ 
+ .VPNavBar {
+  background: transparent !important;
+  border-bottom: none !important;
+ }
+ 
+ .VPNavBar .container {
+  display: none !important;
+ }
+ 
+ .VPNavBar .title {
+  display: none !important;
+ }
+ 
+ .VPNavBar .content {
+  display: none !important;
+ }
+ 
+ .VPNavBar .curtain {
+  display: none !important;
+ }
+ 
+ .VPNavBarHamburger {
+  display: flex !important;
+  height: 48px !important;
+  width: 48px !important;
+  padding: 0 12px !important;
+  position: fixed !important;
+  top: 12px !important;
+  left: 12px !important;
+  z-index: 9999 !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+  border-radius: 4px !important;
+  pointer-events: auto !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+ }
+ 
+ .VPNavBar .content {
+  display: none !important;
+ }
+ 
+ .VPNav {
+  display: none !important;
+ }
+ 
+ .VPLocalNav {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 100 !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+  padding: 8px !important;
+ }
+ 
+ .VPLocalNav .container {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+ }
+ 
+ .VPDoc:not(.has-hero) {
+  padding-top: 96px !important;
+ }
